@@ -1,0 +1,26 @@
+.chatbox {
+	width: 30%;
+}
+
+.recieved {
+	float: left;
+}
+
+.sent {
+	float: right;
+}
+
+.reg_div {
+	width: 30%;
+}
+
+#register_button {
+	margin: 10px;
+	border: 2px solid teal;
+	background: none;
+}
+
+#register_button:hover {
+	background: teal;
+	color: white;
+}

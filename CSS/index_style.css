@@ -1,0 +1,24 @@
+.login-box{
+	position: absolute;
+	width: 280px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	/*color: white;*/
+}
+
+.textbox{
+	margin: 10px 0px;
+}
+
+.buttons{
+	width: 100%;
+	background: none;
+	border: 2px solid teal;
+	margin-top: 10px;
+}
+
+.buttons:hover{
+	background: teal;
+	color: white;
+}
