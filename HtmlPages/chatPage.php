@@ -3,6 +3,7 @@
 	session_start();
 	$user1 = $_SESSION['username'];
 	$user2 = $_SESSION['chatUser'];
+	//dkhbfiberfbhe
 	$sql = "SELECT uid from user where username='$user1'";
 	$result = mysqli_query($conn, $sql);
 	$useridArr = mysqli_fetch_assoc($result);
